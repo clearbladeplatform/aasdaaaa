@@ -1,0 +1,61 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "ID": "Anonymous",
+    "Name": "Anonymous",
+    "Permissions": {
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "Example_GenerateData",
+                "SystemKey": "e887bea60bfcac82f4e7eb92b4d901"
+            },
+            {
+                "Level": 1,
+                "Name": "Example_NormalDeviate",
+                "SystemKey": "e887bea60bfcac82f4e7eb92b4d901"
+            },
+            {
+                "Level": 1,
+                "Name": "Example_NormalDistribution_Advanced",
+                "SystemKey": "e887bea60bfcac82f4e7eb92b4d901"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": [],
+                "ID": "facbdfa40bb0c2c9cebfdc86a28001",
+                "Items": [],
+                "Level": 15,
+                "Name": "facbdfa40bb0c2c9cebfdc86a28001"
+            },
+            {
+                "Columns": [],
+                "ID": "8e88bea60ba0de8d9fd1b9a2e3e901",
+                "Items": [],
+                "Level": 15,
+                "Name": "vibration_sensor_1"
+            }
+        ],
+        "DevicesList": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "statistics",
+                "SystemKey": "e887bea60bfcac82f4e7eb92b4d901"
+            }
+        ],
+        "Push": {
+            "Level": 0
+        },
+        "SystemServices": null,
+        "Topics": [],
+        "UsersList": {
+            "Level": 0
+        }
+    }
+}
